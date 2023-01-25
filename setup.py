@@ -1,7 +1,7 @@
 import sys
 import warnings
 import os
-from packaging.version import parse, Version
+from site-packages.packaging.version import parse, Version
 
 from setuptools import setup, find_packages
 import subprocess
